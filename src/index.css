@@ -1,0 +1,50 @@
+:root {
+    background-color: rgb(133, 29, 29);
+}
+
+h1 {
+    color: rgb(251, 251, 82);
+    font-size: 4rem;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+  
+.pokemon-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    background: #f9f9f9;
+}
+  
+.pokemon-card img {
+    width: 130px;
+    height: 130px;
+}
+
+li {
+    text-decoration: none;
+}
+
+.pagination-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pagination-controls button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls span {
+    font-weight: bold;
+  }
