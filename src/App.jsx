@@ -10,7 +10,7 @@ function App() {
 // }, [generation]);
 
   return (
-    <div className="App">
+    <div className="app">
       <h1>Pokédex</h1>
       <Generation onSelectGeneration={setGeneration} />
       <PokemonList generation={generation} />
